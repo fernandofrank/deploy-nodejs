@@ -1,0 +1,23 @@
+{
+  "name": "deploy-nodejs",
+  "version": "1.0.0",
+  "description": "try to deploy-nodejs",
+  "main": "index.js",
+  "engines":{"node":"16.x"},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandofrank/deploy-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandofrank/deploy-nodejs/issues"
+  },
+  "homepage": "https://github.com/fernandofrank/deploy-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
