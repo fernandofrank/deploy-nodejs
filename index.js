@@ -5,3 +5,7 @@ const PORT = process.env.PORT || 5050;
 
 app.use("/api/product", product);
 app.listen(PORT, () => console.log(`server is running in port ${PORT}`));
+
+app.get("/", (req, res) => {
+	res.send("Home page");
+});
